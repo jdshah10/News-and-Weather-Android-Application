@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/toolbarBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/selectedicon</item>
+    </style>
+    
+    <style name="CustomToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:text">@color/blackcolor</item>
+        <item name="colorPrimary">@color/toolbarBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:listPreferredItemHeightSmall">70dp</item>
+        <item name="colorAccent">@color/selectedicon</item>
+
+    </style>
+
+    <style name="detailedPage" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:text">@color/blackcolor</item>
+        <item name="colorPrimary">@color/toolbarBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:listPreferredItemHeightSmall">70dp</item>
+        <item name="colorAccent">#B213EC</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@style/detailedPage">
+
+        <item name="android:textColor">@color/blackcolor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:listPreferredItemHeightSmall">70dp</item>
+
+    </style>
+
+</resources>
